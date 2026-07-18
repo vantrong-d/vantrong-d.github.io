@@ -27,15 +27,15 @@ author:
   name             : "DANG VAN TRONG"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Japan"
+  employer         : "Division of Information Science, Nara Institute of Science and Technology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "van_trong.dang.ve6@naist.ac.jp" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=u_Eb52QAAAAJ&hl=vi"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/yourorcidurl"
