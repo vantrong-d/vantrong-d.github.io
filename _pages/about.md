@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+
 I am Dang Van Trong, a Ph.D. student at the Human Robotics Laboratory, Division of Information Science, Nara Institute of Science and Technology (NAIST), Japan, advised by Prof. Takahiro Wada. I am expected to receive my doctoral degree in September 2026.
 
 
