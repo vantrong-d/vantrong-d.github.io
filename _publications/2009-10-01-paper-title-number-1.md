@@ -1,14 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "“Stack It Up!”: 3D Stable Structure Generation from 2D Hand-drawn Sketch"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2025-Corl-StackItUp
+date: 2025-01-01
+venue: "In Proceedings of the Conference on Robot Learning (CoRL), 2025"
+paperurl: "https://link-toi-bai-bao-hoac-arxiv.pdf"
+citation: 'Tên Tác Giả A, Tên Tác Giả B, & Tên Tác Giả C. (2025). "Stack It Up!: 3D Stable Structure Generation from 2D Hand-drawn Sketch". <i>Proceedings of the Conference on Robot Learning (CoRL)</i>.'
+header:
+  teaser: "/images/DangVanTrongP.jpg"
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
