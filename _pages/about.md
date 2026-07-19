@@ -16,6 +16,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
 Research Highlights
 ======
 
+---
 title: "“Stack It Up!”: 3D Stable Structure Generation from 2D Hand-drawn Sketch"
 collection: publications
 permalink: /publication/2025-Corl-StackItUp
@@ -25,6 +26,7 @@ paperurl: "https://link-toi-bai-bao-hoac-arxiv.pdf"
 citation: 'Tên Tác Giả A, Tên Tác Giả B, & Tên Tác Giả C. (2025). "Stack It Up!: 3D Stable Structure Generation from 2D Hand-drawn Sketch". <i>Proceedings of the Conference on Robot Learning (CoRL)</i>.'
 header:
   teaser: "/images/DangVanTrongP.jpg"
+---
 
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
