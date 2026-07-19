@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I am Dang Van Trong, a Ph.D. student at the Human Robotics Laboratory, Division of Information Science, Nara Institute of Science and Technology (NAIST), Japan, advised by Prof. Takahiro Wada. I am expected to receive my doctoral degree in September 2026.
+I am Dang Van Trong, a Ph.D. student at the Human Robotics Laboratory, Division of Information Science, Nara Institute of Science and Technology (NAIST), Japan, advised by Prof. [Takahiro Wada]([https://pages.github.com](https://scholar.google.com/citations?hl=vi&user=AMyuZtQAAAAJ)). I am expected to receive my doctoral degree in September 2026.
 
 
 
