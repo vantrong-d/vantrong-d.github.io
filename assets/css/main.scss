@@ -37,3 +37,83 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* =======================================================================
+   Publication layout
+   ======================================================================= */
+
+.paper-item{
+    display:flex;
+    align-items:flex-start;
+    gap:30px;
+    margin-bottom:45px;
+}
+
+.paper-thumb{
+    width:240px;
+    flex-shrink:0;
+}
+
+.paper-thumb img{
+    width:100%;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+
+.paper-info{
+    flex:1;
+}
+
+.paper-title{
+    margin-top:0;
+    margin-bottom:10px;
+    font-size:32px;
+    line-height:1.25;
+}
+
+.paper-title a{
+    text-decoration:none;
+    color:#111;
+}
+
+.paper-title a:hover{
+    color:#0066cc;
+}
+
+.paper-authors{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.paper-venue{
+    font-size:18px;
+    color:#666;
+    margin-bottom:15px;
+}
+
+.paper-abstract{
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:18px;
+}
+
+.paper-buttons{
+    margin-top:15px;
+}
+
+.paper-btn{
+    display:inline-block;
+    padding:8px 18px;
+    margin-right:10px;
+    margin-bottom:10px;
+    border:2px solid #222;
+    border-radius:5px;
+    text-decoration:none;
+    color:#222;
+    font-weight:600;
+}
+
+.paper-btn:hover{
+    background:#222;
+    color:#fff;
+}
