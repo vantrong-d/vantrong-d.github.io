@@ -16,6 +16,8 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
 Research Highlights
 ======
 
+<div markdown="0">
+
 <style>
 /* CSS cho phần Selected Publications */
 .pub-container {
@@ -25,7 +27,7 @@ Research Highlights
   align-items: flex-start;
 }
 .pub-image {
-  flex: 0 0 180px; /* Chiều rộng cố định cho ảnh thumbnail */
+  flex: 0 0 180px;
 }
 .pub-image img {
   width: 100%;
@@ -71,7 +73,6 @@ Research Highlights
   text-decoration: none;
 }
 
-/* Hiển thị dọc trên thiết bị di động */
 @media (max-width: 600px) {
   .pub-container {
     flex-direction: column;
@@ -86,7 +87,6 @@ Research Highlights
 
 <div class="pub-container">
   <div class="pub-image">
-    <!-- Bạn cần upload ảnh có tên stack-it-up.jpg vào thư mục images trên repo của bạn -->
     <img src="/images/stack-it-up.jpg" alt="Stack It Up thumbnail">
   </div>
   <div class="pub-details">
@@ -99,4 +99,6 @@ Research Highlights
       <a href="#" target="_blank">Website</a>
     </div>
   </div>
+</div>
+
 </div>
