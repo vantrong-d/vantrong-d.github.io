@@ -1,108 +1,111 @@
 ---
-layout: single  # Đổi layout thành single để rộng rãi hơn
-title: "publications" # Viết thường để giống Yiqing
+layout: single
+title: "publications"
 permalink: /publications/
-author_profile: false # Ẩn cột bên trái
+author_profile: false
 ---
 
 <style>
-/* 1. Tùy chỉnh Tiêu đề chính */
+/* 1. Tiêu đề chính (Khôi phục font chữ cũ của web) */
 h1.page__title {
-  font-size: 2.5rem !important; 
-  font-weight: 300;             
   margin-bottom: 0.5rem;
 }
 
 .page__title::after {
     content: "publications by categories in reversed chronological order.";
     display: block;
-    font-size: 0.9rem;
-    color: #555;
+    font-size: 0.85rem;
+    color: #666;
     margin-top: 10px;
-    font-style: normal;
+    font-weight: normal;
 }
 
-/* 2. Cấu trúc chung cho danh sách */
+/* 2. Cấu trúc chung */
 .pub-list {
   max-width: 900px;
-  margin: 40px auto 0; 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 40px auto 0;
 }
 
-/* 3. Kiểu dáng cho nhóm theo năm */
+/* 3. Nhóm theo năm và Đường kẻ mờ */
 .year-section {
   position: relative;
   margin-bottom: 40px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
+/* Tạo đường kẻ mờ phân cách giữa CÁC NĂM (không kẻ ở năm trên cùng) */
+.year-section + .year-section {
+  border-top: 1px solid #eee;
+}
+
+/* Số năm dịch sang phải */
 .year-label {
   position: absolute;
-  top: 10px;
-  right: 0;
-  font-size: 2rem;       
-  font-weight: 300;      
-  color: #e0e0e0;        
+  top: 20px;
+  right: -30px; /* Dịch xa sang phải hơn */
+  font-size: 1.8rem;
+  color: #e0e0e0;
   z-index: -1;
+  font-weight: bold; /* Chữ đậm để đồng bộ với theme của bạn */
 }
 
 /* 4. Cấu trúc từng bài báo */
 .pub-item {
   display: flex;
-  gap: 25px;            
+  gap: 20px;
   margin-bottom: 30px;
   align-items: flex-start;
 }
 
 .pub-image {
-  flex: 0 0 160px;      /* Cho ảnh nhỏ lại một chút nữa cho cân với chữ */
+  flex: 0 0 130px; /* THU NHỎ ẢNH NỮA */
 }
 .pub-image img {
   width: 100%;
-  border-radius: 2px;   
+  border-radius: 2px;
   border: 1px solid #ddd;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 /* Cột nội dung bên phải */
 .pub-details {
   flex: 1;
-  padding-right: 120px; /* TĂNG KHOẢNG TRỐNG BÊN PHẢI ĐỂ CÁCH XA SỐ NĂM */
+  padding-right: 150px; /* Chừa không gian rộng hơn để không chạm số năm */
 }
 
-/* 5. Chỉnh cỡ chữ cực kỳ nhỏ gọn */
+/* 5. Cỡ chữ thu nhỏ hơn nữa */
 .pub-title {
-  font-size: 0.95rem;    /* Thu nhỏ tiêu đề bài báo */
-  font-weight: 600;      
+  font-size: 0.9rem;
+  font-weight: 600;
   color: #222;
   margin-bottom: 4px;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 .pub-authors {
-  font-size: 0.85rem;    /* Thu nhỏ tên tác giả */
+  font-size: 0.8rem;
   color: #444;
   margin-bottom: 4px;
 }
 
 .pub-venue {
-  font-size: 0.85rem;    /* Thu nhỏ tên tạp chí */
+  font-size: 0.8rem;
   color: #555;
-  font-style: italic;    
+  font-style: italic;
   margin-bottom: 12px;
 }
 
-/* Nút bấm */
+/* Nút bấm nhỏ hơn */
 .pub-links a {
   display: inline-block;
   margin-right: 8px;
-  padding: 3px 10px;
-  border: 1px solid #ddd; /* Đổi viền sang màu xám nhạt cho tinh tế hơn */
-  border-radius: 2px;     
-  color: #555;            /* Màu chữ nhạt đi một chút */
+  padding: 2px 8px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  color: #555;
   text-decoration: none;
-  font-size: 0.7rem;      /* Chữ trong nút bé xíu lại */
-  text-transform: uppercase; 
+  font-size: 0.65rem;
+  text-transform: uppercase;
   transition: all 0.2s;
 }
 
@@ -110,21 +113,22 @@ h1.page__title {
   background-color: #f5f5f5;
   color: #222;
   border-color: #aaa;
-  text-decoration: none;
 }
 
+/* Giao diện điện thoại */
 @media (max-width: 600px) {
   .pub-item {
     flex-direction: column;
     gap: 15px;
   }
   .pub-image {
-    max-width: 200px;
+    max-width: 150px;
   }
   .year-label {
     position: relative;
+    right: 0;
+    top: 0;
     font-size: 1.5rem;
-    color: #aaa;
     margin-bottom: 10px;
     display: block;
     text-align: right;
