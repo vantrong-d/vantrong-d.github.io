@@ -5,32 +5,82 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+/* CSS phong cách tối giản giống theme al-folio */
+.year-heading {
+  font-size: 1.6em;
+  font-weight: 700;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.pub-item {
+  margin-bottom: 24px;
+  padding-left: 10px;
+}
+.pub-title {
+  font-weight: bold;
+  font-size: 1.15em;
+  margin-bottom: 4px;
+  line-height: 1.4;
+  color: #2c3e50;
+}
+.pub-authors {
+  color: #333;
+  margin-bottom: 4px;
+  font-size: 1em;
+}
+.pub-venue {
+  font-style: italic;
+  color: #555;
+  font-size: 0.95em;
+  margin-bottom: 10px;
+}
+.pub-links a {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 2px 10px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.85em;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.pub-links a:hover {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+</style>
 
-{% include base_path %}
+<div markdown="0">
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<!-- NĂM 2026 -->
+<div class="year-heading">2026</div>
 
+<div class="pub-item">
+  <div class="pub-title">Observer-based nonlinear cascade control approach of rewinding systems with uncertainties and disturbances compensation</div>
+  <div class="pub-authors"><b>Van Trong Dang</b>, Thi Dieu Trinh Tran, Dinh Bao Hung Nguyen, Tung Lam Nguyen</div>
+  <div class="pub-venue">International Journal of Automation and Control, 2026</div>
+  <div class="pub-links">
+    <a href="https://www.inderscienceonline.com/doi/pdf/10.1504/IJAAC.2026.153727" target="_blank">PDF</a>
+  </div>
+</div>
 
+<!-- NĂM 2025 -->
+<div class="year-heading">2025</div>
 
+<div class="pub-item">
+  <div class="pub-title">“Stack It Up!”: 3D Stable Structure Generation from 2D Hand-drawn Sketch</div>
+  <div class="pub-authors"><b>Dang Van Trong</b>, et al.</div>
+  <div class="pub-venue">Conference on Robot Learning (CoRL), 2025</div>
+  <div class="pub-links">
+    <a href="LINK_PDF_CUA_BAN" target="_blank">PDF</a>
+    <a href="LINK_CODE_CUA_BAN" target="_blank">Code</a>
+  </div>
+</div>
+
+</div>
