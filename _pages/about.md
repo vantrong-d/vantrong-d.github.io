@@ -87,18 +87,16 @@ Research Highlights
 
 <div class="pub-container">
   <div class="pub-image">
-    <img src="/images/stack-it-up.jpg" alt="Stack It Up thumbnail">
+    
+    <img src="/images/observer-control.jpg" alt="Observer-based Control thumbnail">
   </div>
   <div class="pub-details">
-    <div class="pub-title">“Stack It Up!”: 3D Stable Structure Generation from 2D Hand-drawn Sketch</div>
-    <div class="pub-authors">Dang Van Trong, et al.</div>
-    <div class="pub-venue">Conference on Robot Learning (CoRL), 2025</div>
+    <div class="pub-title">Observer-based nonlinear cascade control approach of rewinding systems with uncertainties and disturbances compensation</div>
+    <div class="pub-authors"><b>Van Trong Dang</b>, Thi Dieu Trinh Tran, Dinh Bao Hung Nguyen, Tung Lam Nguyen</div>
+    <div class="pub-venue">International Journal of Automation and Control, 2026</div>
     <div class="pub-links">
-      <a href="https://link-toi-bai-bao-hoac-arxiv.pdf" target="_blank">PDF</a>
-      <a href="#" target="_blank">Code</a>
-      <a href="#" target="_blank">Website</a>
+      <a href="https://www.inderscienceonline.com/doi/pdf/10.1504/IJAAC.2026.153727" target="_blank">PDF</a>
     </div>
   </div>
 </div>
-
 </div>
