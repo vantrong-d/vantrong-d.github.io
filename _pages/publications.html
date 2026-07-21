@@ -8,12 +8,11 @@ author_profile: false # Ẩn cột bên trái
 <style>
 /* 1. Tùy chỉnh Tiêu đề chính */
 h1.page__title {
-  font-size: 2.5rem !important; /* Phóng to tiêu đề publications */
-  font-weight: 300;             /* Làm nét chữ mảnh lại */
+  font-size: 2.5rem !important; 
+  font-weight: 300;             
   margin-bottom: 0.5rem;
 }
 
-/* Thêm dòng mô tả nhỏ dưới tiêu đề (giống Yiqing) */
 .page__title::after {
     content: "publications by categories in reversed chronological order.";
     display: block;
@@ -26,7 +25,7 @@ h1.page__title {
 /* 2. Cấu trúc chung cho danh sách */
 .pub-list {
   max-width: 900px;
-  margin: 40px auto 0; /* Đẩy xuống một chút */
+  margin: 40px auto 0; 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -37,81 +36,80 @@ h1.page__title {
   padding-top: 20px;
 }
 
-/* Số năm to mờ bên phải */
 .year-label {
   position: absolute;
   top: 10px;
   right: 0;
-  font-size: 2rem;       /* Thu nhỏ số năm một chút */
-  font-weight: 300;      /* Làm nét mảnh giống Yiqing */
-  color: #e0e0e0;        /* Chỉnh màu mờ mờ */
+  font-size: 2rem;       
+  font-weight: 300;      
+  color: #e0e0e0;        
   z-index: -1;
 }
 
 /* 4. Cấu trúc từng bài báo */
 .pub-item {
   display: flex;
-  gap: 25px;            /* Tăng khoảng cách giữa ảnh và chữ */
+  gap: 25px;            
   margin-bottom: 30px;
   align-items: flex-start;
 }
 
-/* Cột hình ảnh bên trái */
 .pub-image {
-  flex: 0 0 180px;      /* Cố định kích thước ảnh vừa phải */
+  flex: 0 0 160px;      /* Cho ảnh nhỏ lại một chút nữa cho cân với chữ */
 }
 .pub-image img {
   width: 100%;
-  border-radius: 2px;   /* Bo góc rất nhẹ giống Yiqing */
+  border-radius: 2px;   
   border: 1px solid #ddd;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Thêm bóng mờ nhẹ */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
 }
 
 /* Cột nội dung bên phải */
 .pub-details {
   flex: 1;
-  padding-right: 50px; /* Tạo khoảng trống để không chạm vào số năm */
+  padding-right: 120px; /* TĂNG KHOẢNG TRỐNG BÊN PHẢI ĐỂ CÁCH XA SỐ NĂM */
 }
 
-/* 5. Chỉnh cỡ chữ nhỏ gọn lại */
+/* 5. Chỉnh cỡ chữ cực kỳ nhỏ gọn */
 .pub-title {
-  font-size: 1.05rem;    /* Chữ tiêu đề bài báo */
-  font-weight: 600;      /* In đậm vừa phải */
+  font-size: 0.95rem;    /* Thu nhỏ tiêu đề bài báo */
+  font-weight: 600;      
   color: #222;
   margin-bottom: 4px;
   line-height: 1.4;
 }
 
 .pub-authors {
-  font-size: 0.95rem;    /* Chữ tác giả */
+  font-size: 0.85rem;    /* Thu nhỏ tên tác giả */
   color: #444;
   margin-bottom: 4px;
 }
 
 .pub-venue {
-  font-size: 0.95rem;    /* Chữ tên tạp chí/hội nghị */
+  font-size: 0.85rem;    /* Thu nhỏ tên tạp chí */
   color: #555;
-  font-style: italic;    /* In nghiêng giống Yiqing */
+  font-style: italic;    
   margin-bottom: 12px;
 }
 
-/* Nút bấm viền mỏng, chữ đen */
+/* Nút bấm */
 .pub-links a {
   display: inline-block;
   margin-right: 8px;
   padding: 3px 10px;
-  border: 1px solid #555; /* Viền mỏng, màu xám đen */
-  border-radius: 2px;     /* Bo góc nhẹ */
-  color: #333;
+  border: 1px solid #ddd; /* Đổi viền sang màu xám nhạt cho tinh tế hơn */
+  border-radius: 2px;     
+  color: #555;            /* Màu chữ nhạt đi một chút */
   text-decoration: none;
-  font-size: 0.75rem;     /* Chữ trong nút bé lại */
-  text-transform: uppercase; /* Viết hoa toàn bộ */
+  font-size: 0.7rem;      /* Chữ trong nút bé xíu lại */
+  text-transform: uppercase; 
   transition: all 0.2s;
 }
 
 .pub-links a:hover {
-  background-color: #555;
-  color: #fff;
+  background-color: #f5f5f5;
+  color: #222;
+  border-color: #aaa;
   text-decoration: none;
 }
 
@@ -121,7 +119,7 @@ h1.page__title {
     gap: 15px;
   }
   .pub-image {
-    max-width: 100%;
+    max-width: 200px;
   }
   .year-label {
     position: relative;
@@ -136,46 +134,3 @@ h1.page__title {
   }
 }
 </style>
-
-<div markdown="0" class="pub-list">
-
-  <!-- ==================== NĂM 2026 ==================== -->
-  <div class="year-section">
-    <div class="year-label">2026</div>
-    
-    <div class="pub-item">
-      <div class="pub-image">
-        <img src="/images/observer-control.jpg" alt="Observer Control">
-      </div>
-      <div class="pub-details">
-        <div class="pub-title">Observer-based nonlinear cascade control approach of rewinding systems with uncertainties and disturbances compensation</div>
-        <div class="pub-authors"><b>Van Trong Dang</b>, Thi Dieu Trinh Tran, Dinh Bao Hung Nguyen, Tung Lam Nguyen</div>
-        <div class="pub-venue">International Journal of Automation and Control, 2026</div>
-        <div class="pub-links">
-          <a href="https://www.inderscienceonline.com/doi/pdf/10.1504/IJAAC.2026.153727" target="_blank">PDF</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ==================== NĂM 2025 ==================== -->
-  <div class="year-section">
-    <div class="year-label">2025</div>
-    
-    <div class="pub-item">
-      <div class="pub-image">
-        <img src="/images/stack-it-up.jpg" alt="Stack It Up">
-      </div>
-      <div class="pub-details">
-        <div class="pub-title">“Stack It Up!”: 3D Stable Structure Generation from 2D Hand-drawn Sketch</div>
-        <div class="pub-authors"><b>Dang Van Trong</b>, et al.</div>
-        <div class="pub-venue">In Proceedings of the Conference on Robot Learning (CoRL), 2025</div>
-        <div class="pub-links">
-          <a href="LINK_PDF" target="_blank">PDF</a>
-          <a href="LINK_CODE" target="_blank">CODE</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
