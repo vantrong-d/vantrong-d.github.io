@@ -6,8 +6,9 @@ author_profile: false
 ---
 
 <style>
-/* 1. Tiêu đề chính (Khôi phục font chữ cũ của web) */
+/* 1. Tiêu đề chính to hơn */
 h1.page__title {
+  font-size: 3rem !important; /* Làm chữ "publications" to hẳn lên */
   margin-bottom: 0.5rem;
 }
 
@@ -20,33 +21,40 @@ h1.page__title {
     font-weight: normal;
 }
 
-/* 2. Cấu trúc chung */
+/* 2. Cấu trúc chung và ĐƯỜNG KẺ MỜ dưới phần tiêu đề */
 .pub-list {
   max-width: 900px;
   margin: 40px auto 0;
+  padding-top: 40px; /* Cách đường kẻ bên dưới một khoảng */
+  border-top: 1px solid #eee; /* ĐƯỜNG KẺ MỜ PHÂN CÁCH TIÊU ĐỀ */
 }
 
-/* 3. Nhóm theo năm và Đường kẻ mờ */
+/* 3. Nhóm theo năm và Đường kẻ mờ giữa các năm */
 .year-section {
   position: relative;
   margin-bottom: 40px;
-  padding-top: 30px;
 }
 
-/* Tạo đường kẻ mờ phân cách giữa CÁC NĂM (không kẻ ở năm trên cùng) */
+/* Đường kẻ mờ phân cách giữa các cụm năm phía dưới */
 .year-section + .year-section {
   border-top: 1px solid #eee;
+  padding-top: 40px;
 }
 
-/* Số năm dịch sang phải */
+/* Số năm dịch sang phải và CỰC KỲ MỜ */
 .year-label {
   position: absolute;
-  top: 20px;
-  right: -30px; /* Dịch xa sang phải hơn */
+  top: 30px; 
+  right: -30px; 
   font-size: 1.8rem;
-  color: #e0e0e0;
+  color: #f2f2f2; /* Màu cực nhạt, mờ như bóng nước */
   z-index: -1;
-  font-weight: bold; /* Chữ đậm để đồng bộ với theme của bạn */
+  font-weight: bold;
+}
+
+/* Căn lại vị trí số năm cho cụm đầu tiên (không có đường kẻ trên) */
+.year-section:first-child .year-label {
+  top: 0px;
 }
 
 /* 4. Cấu trúc từng bài báo */
@@ -58,7 +66,7 @@ h1.page__title {
 }
 
 .pub-image {
-  flex: 0 0 130px; /* THU NHỎ ẢNH NỮA */
+  flex: 0 0 130px; 
 }
 .pub-image img {
   width: 100%;
@@ -70,10 +78,10 @@ h1.page__title {
 /* Cột nội dung bên phải */
 .pub-details {
   flex: 1;
-  padding-right: 150px; /* Chừa không gian rộng hơn để không chạm số năm */
+  padding-right: 150px; 
 }
 
-/* 5. Cỡ chữ thu nhỏ hơn nữa */
+/* 5. Cỡ chữ thu nhỏ */
 .pub-title {
   font-size: 0.9rem;
   font-weight: 600;
@@ -95,7 +103,7 @@ h1.page__title {
   margin-bottom: 12px;
 }
 
-/* Nút bấm nhỏ hơn */
+/* Nút bấm */
 .pub-links a {
   display: inline-block;
   margin-right: 8px;
@@ -127,7 +135,7 @@ h1.page__title {
   .year-label {
     position: relative;
     right: 0;
-    top: 0;
+    top: 0 !important;
     font-size: 1.5rem;
     margin-bottom: 10px;
     display: block;
