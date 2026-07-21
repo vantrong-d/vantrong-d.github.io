@@ -19,87 +19,90 @@ Research Highlights
 <div markdown="0">
 
 <style>
-/* Cấu trúc chung */
+/* Cấu trúc chung cho trang có cột bên trái */
 .pub-list {
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 25px;
 }
 
-/* Cấu trúc từng bài báo (Giống hệt trang publications) */
+/* Tăng khoảng cách để thoáng giống trang Publications */
 .pub-item {
   display: flex;
-  gap: 20px;
-  margin-bottom: 30px;
+  gap: 30px; /* Tăng khoảng cách giữa ảnh và chữ để có độ thoáng */
+  margin-bottom: 40px;
   align-items: flex-start;
 }
 
+/* Chỉnh lại ảnh to hơn cho cân đối với không gian hẹp */
 .pub-image {
-  flex: 0 0 130px; /* Ảnh nhỏ 130px */
+  flex: 0 0 160px; 
 }
 .pub-image img {
   width: 100%;
   border-radius: 2px;
-  border: 1px solid #ddd;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border: 1px solid #e1e4e8;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 }
 
-/* Cột nội dung bên phải */
+/* Phần chữ */
 .pub-details {
   flex: 1;
-  /* Đã bỏ padding-right lớn vì không còn số năm chắn ngang */
-  padding-right: 10px; 
+  padding-right: 0; 
 }
 
-/* Cỡ chữ đã được thu nhỏ đồng bộ */
+/* Đồng bộ kích thước và màu chữ chính xác */
 .pub-title {
-  font-size: 0.9rem;
+  font-size: 1.05rem;
   font-weight: 600;
-  color: #222;
-  margin-bottom: 4px;
-  line-height: 1.3;
+  color: #333; /* Màu xám đậm dịu mắt, không dùng màu đen sì */
+  margin-bottom: 6px;
+  line-height: 1.4;
 }
 
 .pub-authors {
-  font-size: 0.8rem;
-  color: #444;
+  font-size: 0.95rem;
+  color: #555;
   margin-bottom: 4px;
 }
 
 .pub-venue {
-  font-size: 0.8rem;
-  color: #555;
+  font-size: 0.95rem;
+  color: #666;
   font-style: italic;
   margin-bottom: 12px;
 }
 
-/* Nút bấm tinh tế */
+/* Nút bấm tinh tế hơn */
 .pub-links a {
   display: inline-block;
   margin-right: 8px;
-  padding: 2px 8px;
-  border: 1px solid #ddd;
-  border-radius: 2px;
-  color: #555;
+  padding: 3px 10px;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  color: #586069;
   text-decoration: none;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
-  transition: all 0.2s;
+  transition: background-color 0.2s;
 }
 
 .pub-links a:hover {
-  background-color: #f5f5f5;
-  color: #222;
-  border-color: #aaa;
+  background-color: #f3f4f6;
+  color: #24292e;
+  text-decoration: none;
 }
 
+/* Giao diện điện thoại */
 @media (max-width: 600px) {
   .pub-item {
     flex-direction: column;
     gap: 15px;
   }
   .pub-image {
-    max-width: 150px;
+    max-width: 200px;
   }
 }
+
 </style>
 
 <div markdown="0" class="pub-list">
