@@ -1,24 +1,40 @@
 ---
-layout: archive
-title: "Publications"
+layout: single  # Đổi layout thành single để rộng rãi hơn
+title: "publications" # Viết thường để giống Yiqing
 permalink: /publications/
-author_profile: false
+author_profile: false # Ẩn cột bên trái
 ---
 
 <style>
-/* Cấu trúc chung cho danh sách */
+/* 1. Tùy chỉnh Tiêu đề chính */
+h1.page__title {
+  font-size: 2.5rem !important; /* Phóng to tiêu đề publications */
+  font-weight: 300;             /* Làm nét chữ mảnh lại */
+  margin-bottom: 0.5rem;
+}
+
+/* Thêm dòng mô tả nhỏ dưới tiêu đề (giống Yiqing) */
+.page__title::after {
+    content: "publications by categories in reversed chronological order.";
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+    font-style: normal;
+}
+
+/* 2. Cấu trúc chung cho danh sách */
 .pub-list {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 40px auto 0; /* Đẩy xuống một chút */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Kiểu dáng cho nhóm theo năm */
+/* 3. Kiểu dáng cho nhóm theo năm */
 .year-section {
   position: relative;
   margin-bottom: 40px;
   padding-top: 20px;
-  border-top: 1px solid #eaeaea;
 }
 
 /* Số năm to mờ bên phải */
@@ -26,72 +42,75 @@ author_profile: false
   position: absolute;
   top: 10px;
   right: 0;
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #f1f1f1;
-  z-index: -1; /* Đẩy ra sau để không đè lên chữ */
+  font-size: 2rem;       /* Thu nhỏ số năm một chút */
+  font-weight: 300;      /* Làm nét mảnh giống Yiqing */
+  color: #e0e0e0;        /* Chỉnh màu mờ mờ */
+  z-index: -1;
 }
 
-/* Cấu trúc từng bài báo */
+/* 4. Cấu trúc từng bài báo */
 .pub-item {
   display: flex;
-  gap: 20px;
-  margin-bottom: 25px;
+  gap: 25px;            /* Tăng khoảng cách giữa ảnh và chữ */
+  margin-bottom: 30px;
   align-items: flex-start;
 }
 
 /* Cột hình ảnh bên trái */
 .pub-image {
-  flex: 0 0 160px; /* Nhỏ hơn so với trang chủ */
+  flex: 0 0 180px;      /* Cố định kích thước ảnh vừa phải */
 }
 .pub-image img {
   width: 100%;
-  border-radius: 4px;
-  border: 1px solid #eee;
+  border-radius: 2px;   /* Bo góc rất nhẹ giống Yiqing */
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Thêm bóng mờ nhẹ */
 }
 
 /* Cột nội dung bên phải */
 .pub-details {
   flex: 1;
+  padding-right: 50px; /* Tạo khoảng trống để không chạm vào số năm */
 }
 
-/* Chỉnh cỡ chữ nhỏ gọn lại */
+/* 5. Chỉnh cỡ chữ nhỏ gọn lại */
 .pub-title {
-  font-size: 1rem;
-  font-weight: normal;
-  color: #000;
+  font-size: 1.05rem;    /* Chữ tiêu đề bài báo */
+  font-weight: 600;      /* In đậm vừa phải */
+  color: #222;
   margin-bottom: 4px;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 .pub-authors {
-  font-size: 0.9rem;
-  color: #333;
+  font-size: 0.95rem;    /* Chữ tác giả */
+  color: #444;
   margin-bottom: 4px;
 }
 
 .pub-venue {
-  font-size: 0.9rem;
+  font-size: 0.95rem;    /* Chữ tên tạp chí/hội nghị */
   color: #555;
-  font-style: normal;
-  margin-bottom: 8px;
+  font-style: italic;    /* In nghiêng giống Yiqing */
+  margin-bottom: 12px;
 }
 
 /* Nút bấm viền mỏng, chữ đen */
 .pub-links a {
   display: inline-block;
-  margin-right: 6px;
-  padding: 2px 8px;
-  border: 1px solid #333;
+  margin-right: 8px;
+  padding: 3px 10px;
+  border: 1px solid #555; /* Viền mỏng, màu xám đen */
+  border-radius: 2px;     /* Bo góc nhẹ */
   color: #333;
   text-decoration: none;
-  font-size: 0.75rem;
-  text-transform: uppercase;
+  font-size: 0.75rem;     /* Chữ trong nút bé lại */
+  text-transform: uppercase; /* Viết hoa toàn bộ */
   transition: all 0.2s;
 }
 
 .pub-links a:hover {
-  background-color: #333;
+  background-color: #555;
   color: #fff;
   text-decoration: none;
 }
@@ -99,14 +118,21 @@ author_profile: false
 @media (max-width: 600px) {
   .pub-item {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
   .pub-image {
-    width: 100%;
-    max-width: 200px;
+    max-width: 100%;
   }
   .year-label {
-    font-size: 2rem;
+    position: relative;
+    font-size: 1.5rem;
+    color: #aaa;
+    margin-bottom: 10px;
+    display: block;
+    text-align: right;
+  }
+  .pub-details {
+      padding-right: 0;
   }
 }
 </style>
@@ -143,7 +169,7 @@ author_profile: false
       <div class="pub-details">
         <div class="pub-title">“Stack It Up!”: 3D Stable Structure Generation from 2D Hand-drawn Sketch</div>
         <div class="pub-authors"><b>Dang Van Trong</b>, et al.</div>
-        <div class="pub-venue">Conference on Robot Learning (CoRL), 2025</div>
+        <div class="pub-venue">In Proceedings of the Conference on Robot Learning (CoRL), 2025</div>
         <div class="pub-links">
           <a href="LINK_PDF" target="_blank">PDF</a>
           <a href="LINK_CODE" target="_blank">CODE</a>
