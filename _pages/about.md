@@ -19,77 +19,76 @@ Research Highlights
 <div markdown="0">
 
 <style>
-/* Cấu trúc chung cho trang có cột bên trái */
+/* 1. Cấu trúc chung */
 .pub-list {
-  width: 100%;
-  margin-top: 25px;
+  max-width: 900px;
+  margin: 20px auto 0; /* Giảm margin-top vì không có tiêu đề to ở trên */
 }
 
-/* Tăng khoảng cách để thoáng giống trang Publications */
+/* 2. Cấu trúc từng bài báo (Sao chép từ trang Publications) */
 .pub-item {
   display: flex;
-  gap: 30px; /* Tăng khoảng cách giữa ảnh và chữ để có độ thoáng */
-  margin-bottom: 40px;
+  gap: 20px;
+  margin-bottom: 30px;
   align-items: flex-start;
 }
 
-/* Chỉnh lại ảnh to hơn cho cân đối với không gian hẹp */
 .pub-image {
-  flex: 0 0 160px; 
+  flex: 0 0 130px; /* Ảnh nhỏ 130px giống hệt trang Publications */
 }
 .pub-image img {
   width: 100%;
   border-radius: 2px;
-  border: 1px solid #e1e4e8;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-/* Phần chữ */
+/* Cột nội dung bên phải */
 .pub-details {
   flex: 1;
-  padding-right: 0; 
+  padding-right: 150px; /* Chừa không gian rộng giống hệt trang Publications để độ dài dòng chữ là tương đương */
 }
 
-/* Đồng bộ kích thước và màu chữ chính xác */
+/* 3. Cỡ chữ thu nhỏ (Sao chép từ trang Publications) */
 .pub-title {
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: #333; /* Màu xám đậm dịu mắt, không dùng màu đen sì */
-  margin-bottom: 6px;
-  line-height: 1.4;
+  color: #222;
+  margin-bottom: 4px;
+  line-height: 1.3;
 }
 
 .pub-authors {
-  font-size: 0.95rem;
-  color: #555;
+  font-size: 0.8rem;
+  color: #444;
   margin-bottom: 4px;
 }
 
 .pub-venue {
-  font-size: 0.95rem;
-  color: #666;
+  font-size: 0.8rem;
+  color: #555;
   font-style: italic;
   margin-bottom: 12px;
 }
 
-/* Nút bấm tinh tế hơn */
+/* Nút bấm (Sao chép từ trang Publications) */
 .pub-links a {
   display: inline-block;
   margin-right: 8px;
-  padding: 3px 10px;
-  border: 1px solid #d1d5da;
-  border-radius: 3px;
-  color: #586069;
+  padding: 2px 8px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  color: #555;
   text-decoration: none;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   text-transform: uppercase;
-  transition: background-color 0.2s;
+  transition: all 0.2s;
 }
 
 .pub-links a:hover {
-  background-color: #f3f4f6;
-  color: #24292e;
-  text-decoration: none;
+  background-color: #f5f5f5;
+  color: #222;
+  border-color: #aaa;
 }
 
 /* Giao diện điện thoại */
@@ -99,15 +98,17 @@ Research Highlights
     gap: 15px;
   }
   .pub-image {
-    max-width: 200px;
+    max-width: 150px;
+  }
+  .pub-details {
+      padding-right: 0;
   }
 }
-
 </style>
 
 <div markdown="0" class="pub-list">
 
-  <!-- Bài báo 1 -->
+  <!-- ==================== BÀI BÁO 1 ==================== -->
   <div class="pub-item">
     <div class="pub-image">
       <img src="/images/observer-control.jpg" alt="Observer Control">
@@ -122,7 +123,7 @@ Research Highlights
     </div>
   </div>
 
-  <!-- Bài báo 2 -->
+  <!-- ==================== BÀI BÁO 2 ==================== -->
   <div class="pub-item">
     <div class="pub-image">
       <img src="/images/stack-it-up.jpg" alt="Stack It Up">
