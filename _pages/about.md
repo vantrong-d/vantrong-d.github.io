@@ -19,84 +19,120 @@ Research Highlights
 <div markdown="0">
 
 <style>
-/* CSS cho phần Selected Publications */
-.pub-container {
+/* Cấu trúc chung */
+.pub-list {
+  margin-top: 20px;
+}
+
+/* Cấu trúc từng bài báo (Giống hệt trang publications) */
+.pub-item {
   display: flex;
-  gap: 24px;
-  margin-bottom: 32px;
+  gap: 20px;
+  margin-bottom: 30px;
   align-items: flex-start;
 }
+
 .pub-image {
-  flex: 0 0 180px;
+  flex: 0 0 130px; /* Ảnh nhỏ 130px */
 }
 .pub-image img {
   width: 100%;
-  border-radius: 6px;
+  border-radius: 2px;
   border: 1px solid #ddd;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
+
+/* Cột nội dung bên phải */
 .pub-details {
   flex: 1;
+  /* Đã bỏ padding-right lớn vì không còn số năm chắn ngang */
+  padding-right: 10px; 
 }
+
+/* Cỡ chữ đã được thu nhỏ đồng bộ */
 .pub-title {
-  font-weight: bold;
-  font-size: 1.1em;
-  margin-bottom: 6px;
-  line-height: 1.4;
-}
-.pub-authors {
-  color: #333;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #222;
   margin-bottom: 4px;
-  font-size: 0.95em;
+  line-height: 1.3;
 }
+
+.pub-authors {
+  font-size: 0.8rem;
+  color: #444;
+  margin-bottom: 4px;
+}
+
 .pub-venue {
+  font-size: 0.8rem;
+  color: #555;
   font-style: italic;
   margin-bottom: 12px;
-  color: #555;
-  font-size: 0.95em;
 }
+
+/* Nút bấm tinh tế */
 .pub-links a {
   display: inline-block;
   margin-right: 8px;
-  padding: 3px 10px;
-  border: 1px solid #444;
-  border-radius: 4px;
-  color: #444;
+  padding: 2px 8px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  color: #555;
   text-decoration: none;
-  font-size: 0.85em;
-  font-weight: 600;
-  transition: all 0.2s ease;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  transition: all 0.2s;
 }
+
 .pub-links a:hover {
-  background-color: #444;
-  color: #fff;
-  text-decoration: none;
+  background-color: #f5f5f5;
+  color: #222;
+  border-color: #aaa;
 }
 
 @media (max-width: 600px) {
-  .pub-container {
+  .pub-item {
     flex-direction: column;
-    gap: 12px;
+    gap: 15px;
   }
   .pub-image {
-    width: 100%;
-    max-width: 250px;
+    max-width: 150px;
   }
 }
 </style>
 
-<div class="pub-container">
-  <div class="pub-image">
-    
-    <img src="/images/observer-control.jpg" alt="Observer-based Control thumbnail">
-  </div>
-  <div class="pub-details">
-    <div class="pub-title">Observer-based nonlinear cascade control approach of rewinding systems with uncertainties and disturbances compensation</div>
-    <div class="pub-authors"><b>Van Trong Dang</b>, Thi Dieu Trinh Tran, Dinh Bao Hung Nguyen, Tung Lam Nguyen</div>
-    <div class="pub-venue">International Journal of Automation and Control, 2026</div>
-    <div class="pub-links">
-      <a href="https://www.inderscienceonline.com/doi/pdf/10.1504/IJAAC.2026.153727" target="_blank">PDF</a>
+<div markdown="0" class="pub-list">
+
+  <!-- Bài báo 1 -->
+  <div class="pub-item">
+    <div class="pub-image">
+      <img src="/images/observer-control.jpg" alt="Observer Control">
+    </div>
+    <div class="pub-details">
+      <div class="pub-title">Observer-based nonlinear cascade control approach of rewinding systems with uncertainties and disturbances compensation</div>
+      <div class="pub-authors"><b>Van Trong Dang</b>, Thi Dieu Trinh Tran, Dinh Bao Hung Nguyen, Tung Lam Nguyen</div>
+      <div class="pub-venue">International Journal of Automation and Control, 2026</div>
+      <div class="pub-links">
+        <a href="https://www.inderscienceonline.com/doi/pdf/10.1504/IJAAC.2026.153727" target="_blank">PDF</a>
+      </div>
     </div>
   </div>
-</div>
+
+  <!-- Bài báo 2 -->
+  <div class="pub-item">
+    <div class="pub-image">
+      <img src="/images/stack-it-up.jpg" alt="Stack It Up">
+    </div>
+    <div class="pub-details">
+      <div class="pub-title">“Stack It Up!”: 3D Stable Structure Generation from 2D Hand-drawn Sketch</div>
+      <div class="pub-authors"><b>Dang Van Trong</b>, et al.</div>
+      <div class="pub-venue">In Proceedings of the Conference on Robot Learning (CoRL), 2025</div>
+      <div class="pub-links">
+        <a href="LINK_PDF" target="_blank">PDF</a>
+        <a href="LINK_CODE" target="_blank">CODE</a>
+      </div>
+    </div>
+  </div>
+
 </div>
