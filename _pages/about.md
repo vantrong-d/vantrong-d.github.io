@@ -18,14 +18,16 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
 <div markdown="0">
 
 <style>
-  /* Hiệu ứng link cho tiêu đề */
+/* Ép ghi đè hiệu ứng link mặc định của theme */
 .title-link {
-  color: inherit; /* Giữ nguyên màu đen mặc định của tiêu đề */
-  text-decoration: none; /* Bỏ gạch chân mặc định */
+  color: inherit !important; 
+  text-decoration: none !important; 
+  border-bottom: none !important; /* Xóa cái vạch ngang dày mặc định của trang */
 }
+
 .title-link:hover {
-  text-decoration: underline; /* Hiện gạch chân khi di chuột vào */
-  color: #007bff; /* Đổi sang màu xanh lam một chút cho giống link */
+  text-decoration: underline !important; /* Chỉ gạch chân mỏng khi di chuột vào */
+  color: inherit !important; /* Giữ nguyên màu xám/đen của tiêu đề, không đổi màu */
 }
 /* 1. Cấu trúc chung */
 .pub-list {
