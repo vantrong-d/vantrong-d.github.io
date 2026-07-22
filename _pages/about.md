@@ -13,12 +13,20 @@ I am Dang Van Trong, a Ph.D. student at the Human Robotics Laboratory, Division 
 I obtained both BS and MS in Control Engineering and Automation at Hanoi University of Science and Technology, supervised by Prof. [Dao Phuong Nam](https://scholar.google.com/citations?user=vXl3j2wAAAAJ&hl=vi) and Prof. [Nguyen Tung Lam](https://scholar.google.com/citations?user=MlJ_2-wAAAAJ&hl=vi). 
 
 
-Research Highlights
-======
+<h1><a href="/publications/" class="title-link">Selected Publications</a></h1>
 
 <div markdown="0">
 
 <style>
+  /* Hiệu ứng link cho tiêu đề */
+.title-link {
+  color: inherit; /* Giữ nguyên màu đen mặc định của tiêu đề */
+  text-decoration: none; /* Bỏ gạch chân mặc định */
+}
+.title-link:hover {
+  text-decoration: underline; /* Hiện gạch chân khi di chuột vào */
+  color: #007bff; /* Đổi sang màu xanh lam một chút cho giống link */
+}
 /* 1. Cấu trúc chung */
 .pub-list {
   max-width: 900px;
