@@ -123,18 +123,18 @@ Research Highlights
     </div>
   </div>
 
-  <!-- ==================== BÀI BÁO 2 ==================== -->
+ <!-- ==================== BÀI BÁO: ADAPTIVE ENERGY-BASED (2026) ==================== -->
   <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/stack-it-up.jpg" alt="Stack It Up">
+      <!-- Tạm thời dùng ảnh cũ, sau này bạn đổi tên file ở đây nhé -->
+      <img src="/images/observer-control.jpg" alt="Adaptive Energy-Based Robot Control">
     </div>
     <div class="pub-details">
-      <div class="pub-title">“Stack It Up!”: 3D Stable Structure Generation from 2D Hand-drawn Sketch</div>
-      <div class="pub-authors"><b>Dang Van Trong</b>, et al.</div>
-      <div class="pub-venue">In Proceedings of the Conference on Robot Learning (CoRL), 2025</div>
+      <div class="pub-title">Adaptive Energy-Based Robot Control for Physical Human-Robot Interaction: A Less Conservative Approach</div>
+      <div class="pub-authors"><b>Van Trong Dang</b>, Hiroki Kotake, Sumitaka Honji, Takahiro Wada</div>
+      <div class="pub-venue">2026 IEEE International Conference on Human-Machine Systems (ICHMS), 2026</div>
       <div class="pub-links">
-        <a href="LINK_PDF" target="_blank">PDF</a>
-        <a href="LINK_CODE" target="_blank">CODE</a>
+        <a href="https://ieeexplore.ieee.org/abstract/document/11602247" target="_blank">PDF</a>
       </div>
     </div>
   </div>
