@@ -117,7 +117,21 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
 </style>
 
 <div markdown="0" class="pub-list">
-
+<!-- ==================== BÀI BÁO: MOTION SICKNESS PREDICTION (2026) ==================== -->
+  <div class="pub-item">
+    <div class="pub-image">
+      <!-- Tạm thời dùng ảnh cũ, bạn có thể đổi tên file ở đây sau -->
+      <img src="/images/observer-control.jpg" alt="Prediction of Individual Motion Sickness">
+    </div>
+    <div class="pub-details">
+      <div class="pub-title">Prediction of Individual Motion Sickness of Bus Passengers Using a 6DoF-SVC Model Driven by Handheld Tablet Motion During Visual Tasks</div>
+      <div class="pub-authors"><b>Van Trong Dang</b>, Maxence Bourseul, Takahiro Wada</div>
+      <div class="pub-venue">IEEE Transactions on Intelligent Transportation Systems, 2026</div>
+      <div class="pub-links">
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11603848" target="_blank">PDF</a>
+      </div>
+    </div>
+  </div>
   <!-- ==================== BÀI BÁO 1 ==================== -->
   <div class="pub-item">
     <div class="pub-image">
@@ -148,5 +162,6 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
       </div>
     </div>
   </div>
+  
 
 </div>
