@@ -118,8 +118,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
 
 <div markdown="0" class="pub-list">
 <!-- ==================== NĂM 2026 ==================== -->
-<div class="year-section">
-  <div class="year-label">2026</div>
+
 
   <!-- Bài báo 1: Prediction (Giữ nút PDF) -->
   <div class="pub-item">
