@@ -10,26 +10,38 @@ redirect_from:
 {% include base_path %}
 
 <style>
-/* 1. Bóp chiều rộng của trang CV lại để vừa vặn với trang Publications */
+/* 1. Ép nội dung lùi vào (chừa khoảng trống bên phải giống trang Publications) */
 .cv-layout {
-  max-width: 820px; /* Bạn có thể tăng giảm số 820px này để mép chữ khớp chuẩn 100% với cột số 2026 bên kia */
+  padding-right: 150px; /* Bạn có thể tăng số này lên 180px hoặc 200px nếu muốn lùi sâu vào thêm nữa */
 }
 
-/* 2. Thêm đường kẻ mờ dưới các tiêu đề (Education, Research Experience...) */
+/* 2. Xóa gạch chân dính sát dưới tiêu đề */
 .cv-layout h1 {
-  border-bottom: 1px solid #eaecef; /* Đường kẻ ngang màu xám nhạt */
-  padding-bottom: 10px;             /* Khoảng cách từ chữ xuống đường kẻ */
-  margin-top: 35px;                 /* Cách top để các phần không bị dính vào nhau */
-  margin-bottom: 20px;              /* Cách bottom xuống nội dung */
+  border-bottom: none !important; 
   font-size: 1.7rem;
+  margin-bottom: 20px;
 }
 
-/* 3. Tinh chỉnh độ thoáng của danh sách */
+/* 3. Tạo đường kẻ mờ CHIA CẮT GIỮA CÁC PHẦN (Vạch kẻ sẽ nằm ở giữa phần cũ và phần mới) */
+.cv-layout h1:not(:first-of-type) {
+  border-top: 1px solid #eaecef !important; /* Đường kẻ mờ phân cách */
+  padding-top: 30px; /* Khoảng cách từ vạch kẻ xuống chữ tiêu đề mới */
+  margin-top: 40px;  /* Khoảng cách từ phần nội dung bên trên xuống vạch kẻ */
+}
+
+/* 4. Tinh chỉnh độ thoáng của chữ */
 .cv-layout ul {
   line-height: 1.6;
 }
 .cv-layout li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+/* Chống lỗi hiển thị trên màn hình điện thoại */
+@media (max-width: 600px) {
+  .cv-layout {
+    padding-right: 0;
+  }
 }
 </style>
 
