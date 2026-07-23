@@ -9,6 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+/* 1. Bóp chiều rộng của trang CV lại để vừa vặn với trang Publications */
+.cv-layout {
+  max-width: 820px; /* Bạn có thể tăng giảm số 820px này để mép chữ khớp chuẩn 100% với cột số 2026 bên kia */
+}
+
+/* 2. Thêm đường kẻ mờ dưới các tiêu đề (Education, Research Experience...) */
+.cv-layout h1 {
+  border-bottom: 1px solid #eaecef; /* Đường kẻ ngang màu xám nhạt */
+  padding-bottom: 10px;             /* Khoảng cách từ chữ xuống đường kẻ */
+  margin-top: 35px;                 /* Cách top để các phần không bị dính vào nhau */
+  margin-bottom: 20px;              /* Cách bottom xuống nội dung */
+  font-size: 1.7rem;
+}
+
+/* 3. Tinh chỉnh độ thoáng của danh sách */
+.cv-layout ul {
+  line-height: 1.6;
+}
+.cv-layout li {
+  margin-bottom: 10px;
+}
+</style>
+
+<div class="cv-layout" markdown="1">
+
 Education
 ======
 * Ph.D. in Information Science, Nara Institute of Science and Technology, Japan, Sep 2026 (Expected)
@@ -61,3 +87,5 @@ Skills
   * Proficiency in Matlab, Python, and ControlDesk.
 * **Others**
   * Leadership, Time Management, Problem Solving, Data Analysis
+
+</div>
