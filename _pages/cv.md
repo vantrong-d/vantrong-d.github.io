@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <style>
-  /* Giấu tiêu đề CV mặc định của trang web */
+/* Giấu tiêu đề CV mặc định của trang web */
 .page__title {
   display: none !important;
 }
@@ -18,16 +18,16 @@ redirect_from:
 /* Khu vực chứa tiêu đề và icon PDF ngang hàng nhau */
 .cv-header {
   display: flex;
-  justify-content: space-between; /* Đẩy chữ sang trái, icon sang phải */
-  align-items: center;            /* Căn giữa theo chiều dọc */
-  margin-bottom: 40px;            /* Khoảng cách xuống phần Education */
+  justify-content: space-between; 
+  align-items: center;            
+  margin-bottom: 40px;            
 }
 
 /* Chỉnh lại chữ Trong's CV */
 .cv-header h1 {
   margin: 0 !important; 
   padding: 0 !important;
-  border-top: none !important; /* Xóa vạch kẻ nếu có */
+  border-top: none !important; 
   font-size: 2.2rem;
   color: #333;
 }
@@ -41,9 +41,10 @@ redirect_from:
 .cv-pdf-icon:hover {
   transform: scale(1.15); 
 }
+
 /* 1. Ép nội dung lùi vào (chừa khoảng trống bên phải giống trang Publications) */
 .cv-layout {
-  padding-right: 150px; /* Bạn có thể tăng số này lên 180px hoặc 200px nếu muốn lùi sâu vào thêm nữa */
+  padding-right: 150px; 
 }
 
 /* 2. Xóa gạch chân dính sát dưới tiêu đề */
@@ -53,11 +54,11 @@ redirect_from:
   margin-bottom: 20px;
 }
 
-/* 3. Tạo đường kẻ mờ CHIA CẮT GIỮA CÁC PHẦN (Vạch kẻ sẽ nằm ở giữa phần cũ và phần mới) */
+/* 3. Tạo đường kẻ mờ CHIA CẮT GIỮA CÁC PHẦN */
 .cv-layout h1:not(:first-of-type) {
-  border-top: 1px solid #eaecef !important; /* Đường kẻ mờ phân cách */
-  padding-top: 30px; /* Khoảng cách từ vạch kẻ xuống chữ tiêu đề mới */
-  margin-top: 40px;  /* Khoảng cách từ phần nội dung bên trên xuống vạch kẻ */
+  border-top: 1px solid #eaecef !important; 
+  padding-top: 30px; 
+  margin-top: 40px;  
 }
 
 /* 4. Tinh chỉnh độ thoáng của chữ */
@@ -77,20 +78,18 @@ redirect_from:
 </style>
 
 <div class="cv-layout" markdown="1">
+
 <!-- KHỐI TIÊU ĐỀ TRONG'S CV VÀ NÚT PDF -->
 <div class="cv-header">
   <h1>Trong's CV</h1>
-  <!-- Bạn nhớ thay đổi link href dưới đây trỏ tới đúng file PDF của bạn nhé -->
+  <!-- Link tải PDF -->
   <a href="/DANGVANTRONGCV2025.pdf" target="_blank" title="View full CV">
-    <!-- Mã vẽ icon PDF màu đỏ chuẩn -->
-    <svg class="cv-pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="#d93838">
-      <path d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 25.3-52.6 57.2-46.8 74.4 1.5 4.5 4.9 7.1 9.4 7.1 22.4 0 50-28.3 73.3-63.6 21.4-7.1 46-13.2 70.1-17.1 22.4 11.5 45.9 22.4 60.4 22.4 15.4 0 23.9-10.9 20.5-22.1-4.7-15.4-22.7-18.5-49.8-19.2zM384 121.9v8.1H256V2l8.1.1c6.4 0 12.5 2.5 17 7l96 96c4.5 4.5 7 10.6 7 17z"/>
+    <!-- Icon PDF giống ảnh 2 (đã đổi màu đỏ) -->
+    <svg class="cv-pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#d93838">
+      <path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM112 256H152c30.9 0 56 25.1 56 56s-25.1 56-56 56H112v32c0 8.8-7.2 16-16 16s-16-7.2-16-16V272c0-8.8 7.2-16 16-16zm40 80c13.3 0 24-10.7 24-24s-10.7-24-24-24H112v48h40zm96-80h48c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H248c-8.8 0-16-7.2-16-16V272c0-8.8 7.2-16 16-16zm48 128c8.8 0 16-7.2 16-16V304c0-8.8-7.2-16-16-16H264v96h32zm72-128h80c8.8 0 16 7.2 16 16s-7.2 16-16 16H384v32h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H384v48c0 8.8-7.2 16-16 16s-16-7.2-16-16V272c0-8.8 7.2-16 16-16z"/>
     </svg>
   </a>
 </div>
-
-Education
-======
 
 Education
 ======
