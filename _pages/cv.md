@@ -80,14 +80,13 @@ redirect_from:
 <div class="cv-layout" markdown="1">
 
 <!-- KHỐI TIÊU ĐỀ TRONG'S CV VÀ NÚT PDF -->
+<!-- KHỐI TIÊU ĐỀ TRONG'S CV VÀ NÚT PDF -->
 <div class="cv-header">
   <h1>Trong's CV</h1>
-  <!-- Link tải PDF -->
-  <a href="/DANGVANTRONGCV2025.pdf" target="_blank" title="View full CV">
-    <!-- Icon PDF giống ảnh 2 (đã đổi màu đỏ) -->
-    <svg class="cv-pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#d93838">
-      <path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM112 256H152c30.9 0 56 25.1 56 56s-25.1 56-56 56H112v32c0 8.8-7.2 16-16 16s-16-7.2-16-16V272c0-8.8 7.2-16 16-16zm40 80c13.3 0 24-10.7 24-24s-10.7-24-24-24H112v48h40zm96-80h48c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H248c-8.8 0-16-7.2-16-16V272c0-8.8 7.2-16 16-16zm48 128c8.8 0 16-7.2 16-16V304c0-8.8-7.2-16-16-16H264v96h32zm72-128h80c8.8 0 16 7.2 16 16s-7.2 16-16 16H384v32h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H384v48c0 8.8-7.2 16-16 16s-16-7.2-16-16V272c0-8.8 7.2-16 16-16z"/>
-    </svg>
+  <!-- Đã sửa đường dẫn thêm /files/ vào trước tên file -->
+  <a href="/files/DANGVANTRONGCV2025.pdf" target="_blank" title="View full CV">
+    <!-- Đổi sang dùng thẻ img với icon chuẩn, không bị cắt viền -->
+    <img class="cv-pdf-icon" src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
   </a>
 </div>
 
