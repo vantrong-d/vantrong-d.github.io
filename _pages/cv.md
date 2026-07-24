@@ -61,12 +61,16 @@ redirect_from:
   margin-top: 40px;  
 }
 
-/* 4. Tinh chỉnh độ thoáng của chữ */
+/* 4. Tinh chỉnh độ thoáng và CỠ CHỮ của danh sách */
 .cv-layout ul {
   line-height: 1.6;
+  font-size: 0.95rem; /* Đã thêm thu nhỏ cỡ chữ ở đây */
 }
 .cv-layout li {
   margin-bottom: 12px;
+}
+.cv-layout p {
+  font-size: 0.95rem; /* Đã thêm thu nhỏ cỡ chữ cho chữ thường */
 }
 
 /* Chống lỗi hiển thị trên màn hình điện thoại */
@@ -79,7 +83,6 @@ redirect_from:
 
 <div class="cv-layout" markdown="1">
 
-<!-- KHỐI TIÊU ĐỀ TRONG'S CV VÀ NÚT PDF -->
 <!-- KHỐI TIÊU ĐỀ TRONG'S CV VÀ NÚT PDF -->
 <div class="cv-header">
   <h1>Trong's CV</h1>
