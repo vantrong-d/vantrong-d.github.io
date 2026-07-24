@@ -117,114 +117,80 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
 </style>
 
 <div markdown="0" class="pub-list">
-<!-- ==================== NĂM 2026 ==================== -->
-
-
-  <!-- Bài báo 1: Prediction (Giữ nút PDF) -->
-  <div class="pub-item">
-    <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Prediction of Individual Motion Sickness">
-    </div>
-    <div class="pub-details">
-      <div class="pub-title">Prediction of Individual Motion Sickness of Bus Passengers Using a 6DoF-SVC Model Driven by Handheld Tablet Motion During Visual Tasks</div>
-      <div class="pub-authors"><b>VT Dang</b>, M Bourseul, T Wada</div>
-      <div class="pub-venue">IEEE Transactions on Intelligent Transportation Systems, 2026</div>
-      <div class="pub-links">
-        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11603848" target="_blank">PDF</a>
-      </div>
+<!-- BÀI BÁO 1: Prediction -->
+<div class="pub-item">
+  <div class="pub-image">
+    <img src="/images/observer-control.jpg" alt="Prediction of Individual Motion Sickness">
+  </div>
+  <div class="pub-details">
+    <div class="pub-title">Prediction of Individual Motion Sickness of Bus Passengers Using a 6DoF-SVC Model Driven by Handheld Tablet Motion During Visual Tasks</div>
+    <div class="pub-authors"><b>Van Trong Dang</b>, Maxence Bourseul, Takahiro Wada</div>
+    <div class="pub-venue">IEEE Transactions on Intelligent Transportation Systems, 2026</div>
+    <div class="pub-links">
+      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11603848" target="_blank">PDF</a>
     </div>
   </div>
+</div>
 
-  <!-- Bài báo 2: Adaptive Energy-Based -->
-  <div class="pub-item">
-    <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Adaptive Energy-Based Robot Control">
-    </div>
-    <div class="pub-details">
-      <div class="pub-title">Adaptive Energy-Based Robot Control for Physical Human-Robot Interaction: A Less Conservative Approach</div>
-      <div class="pub-authors"><b>VT Dang</b>, H Kotake, S Honji, T Wada</div>
-      <div class="pub-venue">2026 IEEE International Conference on Human-Machine Systems (ICHMS), 301-306, 2026</div>
-      <div class="pub-links">
-        <a href="https://ieeexplore.ieee.org/abstract/document/11602247" target="_blank">LINK</a>
-      </div>
+<!-- BÀI BÁO 2: Adaptive Energy-Based -->
+<div class="pub-item">
+  <div class="pub-image">
+    <img src="/images/observer-control.jpg" alt="Adaptive Energy-Based Robot Control">
+  </div>
+  <div class="pub-details">
+    <div class="pub-title">Adaptive Energy-Based Robot Control for Physical Human-Robot Interaction: A Less Conservative Approach</div>
+    <div class="pub-authors"><b>Van Trong Dang</b>, Hiroki Kotake, Sumitaka Honji, Takahiro Wada</div>
+    <div class="pub-venue">2026 IEEE International Conference on Human-Machine Systems (ICHMS), 301-306, 2026</div>
+    <div class="pub-links">
+      <a href="https://ieeexplore.ieee.org/abstract/document/11602247" target="_blank">LINK</a>
     </div>
   </div>
+</div>
 
-  <!-- Bài báo 3: Adaptive finite-time hybrid -->
-  <div class="pub-item">
-    <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Adaptive finite-time hybrid tension-velocity control">
-    </div>
-    <div class="pub-details">
-      <div class="pub-title">Adaptive finite-time hybrid tension–velocity control of uncertain multi-section web machines with uniform ultimate boundedness</div>
-      <div class="pub-authors"><b>VT Dang</b>, VT Dang, XB Nguyen, HD Pham, TL Nguyen, VT Pham</div>
-      <div class="pub-venue">ISA transactions, 2026</div>
-      <div class="pub-links">
-        <a href="https://www.sciencedirect.com/science/article/pii/S0019057826000819" target="_blank">LINK</a>
-      </div>
+<!-- BÀI BÁO 3: Adaptive finite-time hybrid -->
+<div class="pub-item">
+  <div class="pub-image">
+    <img src="/images/observer-control.jpg" alt="Adaptive finite-time hybrid tension-velocity control">
+  </div>
+  <div class="pub-details">
+    <div class="pub-title">Adaptive finite-time hybrid tension–velocity control of uncertain multi-section web machines with uniform ultimate boundedness</div>
+    <div class="pub-authors"><b>Van Trong Dang</b>, Viet Thang Dang, Xuan Bo Nguyen, Hung Dung Pham, Tung Lam Nguyen, Van Trieu Pham</div>
+    <div class="pub-venue">ISA transactions, 2026</div>
+    <div class="pub-links">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0019057826000819" target="_blank">LINK</a>
     </div>
   </div>
+</div>
 
-  <!-- Bài báo 4: A Cooperation Control Framework -->
-  <div class="pub-item">
-    <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Cooperation Control Framework">
-    </div>
-    <div class="pub-details">
-      <div class="pub-title">A Cooperation Control Framework Based on Admittance Control and Time-varying Passive Velocity Field Control for Human-Robot Co-carrying Tasks</div>
-      <div class="pub-authors"><b>VT Dang</b>, K Hiroki, H Sumitaka, W Takahiro</div>
-      <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA), 2026</div>
-      <div class="pub-links">
-        <a href="http://ieeexplore.ieee.org/document/11224553" target="_blank">LINK</a>
-      </div>
+<!-- BÀI BÁO 4: A Cooperation Control Framework -->
+<div class="pub-item">
+  <div class="pub-image">
+    <img src="/images/observer-control.jpg" alt="Cooperation Control Framework">
+  </div>
+  <div class="pub-details">
+    <div class="pub-title">A Cooperation Control Framework Based on Admittance Control and Time-varying Passive Velocity Field Control for Human-Robot Co-carrying Tasks</div>
+    <div class="pub-authors"><b>Van Trong Dang</b>, Kotake Hiroki, Honji Sumitaka, Wada Takahiro</div>
+    <div class="pub-venue">2026 IEEE International Conference on Robotics and Automation (ICRA), 2026</div>
+    <div class="pub-links">
+      <a href="http://ieeexplore.ieee.org/document/11224553" target="_blank">LINK</a>
     </div>
   </div>
+</div>
 
-  <!-- Bài báo 5: Robust finite-time -->
-  <div class="pub-item">
-    <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Robust finite-time prescribed performance tracking control">
-    </div>
-    <div class="pub-details">
-      <div class="pub-title">Robust finite-time prescribed performance tracking control of autonomous surface vehicles without velocity measurement under time-varying actuator faults and ocean disturbances</div>
-      <div class="pub-authors">VTP Van Binh Cao, Viet Thang Dang, <b>Van Trong Dang</b>, Van Tung Dam</div>
-      <div class="pub-venue">European Journal of Control 89, 101509, 2026</div>
-      <div class="pub-links">
-        <a href="https://www.sciencedirect.com/science/article/pii/S0947358026000622" target="_blank">LINK</a>
-      </div>
+<!-- BÀI BÁO 5: Observer-based -->
+<div class="pub-item">
+  <div class="pub-image">
+    <img src="/images/observer-control.jpg" alt="Observer-based nonlinear cascade control approach">
+  </div>
+  <div class="pub-details">
+    <div class="pub-title">Observer-based nonlinear cascade control approach of rewinding systems with uncertainties and disturbances compensation</div>
+    <div class="pub-authors"><b>Van Trong Dang</b>, Thi Dieu Trinh Tran, Dinh Bao Hung Nguyen, Tung Lam Nguyen</div>
+    <div class="pub-venue">International Journal of Automation and Control 20 (3), 273-294, 2026</div>
+    <div class="pub-links">
+      <a href="https://www.inderscienceonline.com/doi/pdf/10.1504/IJAAC.2026.153727" target="_blank">LINK</a>
     </div>
   </div>
-
-  <!-- Bài báo 6: A fast terminal -->
-  <div class="pub-item">
-    <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="A fast terminal fractional-order backstepping sliding mode control">
-    </div>
-    <div class="pub-details">
-      <div class="pub-title">A fast terminal fractional-order backstepping sliding mode control for ball-balancing robots</div>
-      <div class="pub-authors">MD Pham, CM Pham, PT Dao, TG Do, NM Nguyen, <b>VT Dang</b>, TL Nguyen</div>
-      <div class="pub-venue">International Journal of Industrial and Systems Engineering 53 (2), 265-281, 2026</div>
-      <div class="pub-links">
-        <a href="https://www.inderscienceonline.com/doi/abs/10.1504/IJISE.2026.154015" target="_blank">LINK</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bài báo 7: Observer-based -->
-  <div class="pub-item">
-    <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Observer-based nonlinear cascade control approach">
-    </div>
-    <div class="pub-details">
-      <div class="pub-title">Observer-based nonlinear cascade control approach of rewinding systems with uncertainties and disturbances compensation</div>
-      <div class="pub-authors"><b>VT Dang</b>, TDT Tran, DBH Nguyen, TL Nguyen</div>
-      <div class="pub-venue">International Journal of Automation and Control 20 (3), 273-294, 2026</div>
-      <div class="pub-links">
-        <a href="https://www.inderscienceonline.com/doi/pdf/10.1504/IJAAC.2026.153727" target="_blank">LINK</a>
-      </div>
-    </div>
-  </div>
-
+</div>
 </div>
   
 
