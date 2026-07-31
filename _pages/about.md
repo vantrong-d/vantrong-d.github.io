@@ -158,7 +158,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
   </div>
 <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Observer-based nonlinear cascade control approach">
+      <img src="/images/4.jpg" alt="Observer-based nonlinear cascade control approach">
     </div>
     <div class="pub-details">
       <div class="pub-title">Observer-based nonlinear cascade control approach of rewinding systems with uncertainties and disturbances compensation</div>
