@@ -210,7 +210,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
   </div>
 <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Formation control scheme with reinforcement learning strategy">
+      <img src="/images/8.jpg" alt="Formation control scheme with reinforcement learning strategy">
     </div>
     <div class="pub-details">
       <div class="pub-title">Formation control scheme with reinforcement learning strategy for a group of multiple surface vehicles</div>
@@ -223,7 +223,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
   </div>
 <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Model-free hierarchical control with fractional-order sliding surface">
+      <img src="/images/9.gif" alt="Model-free hierarchical control with fractional-order sliding surface">
     </div>
     <div class="pub-details">
       <div class="pub-title">Model-free hierarchical control with fractional-order sliding surface for multisection web machines</div>
