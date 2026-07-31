@@ -197,7 +197,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
   </div>
 <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Finite-time Velocity Sensorless Integral Sliding Mode Control">
+      <img src="/images/7.jpg" alt="Finite-time Velocity Sensorless Integral Sliding Mode Control">
     </div>
     <div class="pub-details">
       <div class="pub-title">Finite-time Velocity Sensorless Integral Sliding Mode Control for Roll-To-Roll Systems under Matched Disturbances</div>
