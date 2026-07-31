@@ -171,7 +171,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
   </div>
 <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="An online reinforcement learning-based conflict resolution">
+      <img src="/images/5.jpg" alt="An online reinforcement learning-based conflict resolution">
     </div>
     <div class="pub-details">
       <div class="pub-title">An online reinforcement learning-based conflict resolution approach for human–vehicle cooperative systems</div>
