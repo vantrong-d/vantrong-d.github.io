@@ -145,7 +145,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
   </div>
 <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Adaptive finite-time hybrid tension-velocity control">
+      <img src="/images/3.jpg" alt="Adaptive finite-time hybrid tension-velocity control">
     </div>
     <div class="pub-details">
       <div class="pub-title">Adaptive finite-time hybrid tension–velocity control of uncertain multi-section web machines with uniform ultimate boundedness</div>
