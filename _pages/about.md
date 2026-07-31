@@ -132,7 +132,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
   </div>
 <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Adaptive Energy-Based Robot Control">
+      <img src="/images/2.jpg" alt="Adaptive Energy-Based Robot Control">
     </div>
     <div class="pub-details">
       <div class="pub-title">Adaptive Energy-Based Robot Control for Physical Human-Robot Interaction: A Less Conservative Approach</div>
@@ -184,7 +184,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
   </div>
 <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/Fig.1.pdf" alt="A Cooperation Control Framework Based on Admittance Control">
+      <img src="/images/Cooperation.jpg" alt="A Cooperation Control Framework Based on Admittance Control">
     </div>
     <div class="pub-details">
       <div class="pub-title">A Cooperation Control Framework Based on Admittance Control and Time-Varying Passive Velocity Field Control for Human–Robot Co-Carrying Tasks</div>
