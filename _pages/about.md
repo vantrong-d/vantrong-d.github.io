@@ -119,7 +119,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
 <div markdown="0" class="pub-list">
 <div class="pub-item">
     <div class="pub-image">
-      <img src="/images/observer-control.jpg" alt="Prediction of Individual Motion Sickness">
+      <img src="/images/abc.jpg" alt="Prediction of Individual Motion Sickness">
     </div>
     <div class="pub-details">
       <div class="pub-title">Prediction of Individual Motion Sickness of Bus Passengers Using a 6DoF-SVC Model Driven by Handheld Tablet Motion During Visual Tasks</div>
