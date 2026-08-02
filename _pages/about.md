@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 
-I am Dang Van Trong, a Ph.D. student at the Human Robotics Laboratory, Division of Information Science, Nara Institute of Science and Technology (NAIST), Japan, advised by Prof. [Takahiro Wada](https://scholar.google.com/citations?hl=vi&user=AMyuZtQAAAAJ). I am expected to receive my doctoral degree in September 2026.
-
+* I am Dang Van Trong, a Ph.D. student at the Human Robotics Laboratory, Division of Information Science, Nara Institute of Science and Technology (NAIST), Japan, advised by Prof. [Takahiro Wada](https://scholar.google.com/citations?hl=vi&user=AMyuZtQAAAAJ). I am expected to receive my doctoral degree in September 2026.
+ 
 I obtained both BS and MS in Control Engineering and Automation at Hanoi University of Science and Technology, supervised by Prof. [Dao Phuong Nam](https://scholar.google.com/citations?user=vXl3j2wAAAAJ&hl=vi) and Prof. [Nguyen Tung Lam](https://scholar.google.com/citations?user=MlJ_2-wAAAAJ&hl=vi). 
 
 <h1><a href="/publications/" class="title-link">Research Highlights</a></h1>
