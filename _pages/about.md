@@ -12,6 +12,7 @@ I am Dang Van Trong, a Ph.D. student at the Human Robotics Laboratory, Division 
 
 I obtained both BS and MS in Control Engineering and Automation at Hanoi University of Science and Technology, supervised by Prof. [Dao Phuong Nam](https://scholar.google.com/citations?user=vXl3j2wAAAAJ&hl=vi) and Prof. [Nguyen Tung Lam](https://scholar.google.com/citations?user=MlJ_2-wAAAAJ&hl=vi). 
 
+<h1><a href="/publications/" class="title-link">Selected Publications</a></h1>
 
 <h1><a href="/publications/" class="title-link">Selected Publications</a></h1>
 
@@ -126,7 +127,7 @@ I obtained both BS and MS in Control Engineering and Automation at Hanoi Univers
       <div class="pub-authors"><b>Van Trong Dang</b>, Maxence Bourseul, Takahiro Wada</div>
       <div class="pub-venue">IEEE Transactions on Intelligent Transportation Systems, 2026</div>
       <div class="pub-links">
-        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11603848" target="_blank">PDF</a>
+        <a href="https://ieeexplore.ieee.org/abstract/document/11603848" target="_blank">LINK</a>
       </div>
     </div>
   </div>
