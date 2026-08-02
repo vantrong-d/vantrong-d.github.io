@@ -12,7 +12,15 @@ I am Dang Van Trong, a Ph.D. student at the Human Robotics Laboratory, Division 
 
 I obtained both BS and MS in Control Engineering and Automation at Hanoi University of Science and Technology, supervised by Prof. [Dao Phuong Nam](https://scholar.google.com/citations?user=vXl3j2wAAAAJ&hl=vi) and Prof. [Nguyen Tung Lam](https://scholar.google.com/citations?user=MlJ_2-wAAAAJ&hl=vi). 
 
-<h1><a href="/publications/" class="title-link">Selected Publications</a></h1>
+<h1><a href="/publications/" class="title-link">Research Highlights</a></h1>
+
+My research is driven by two fundamental questions: 1) How can human-robot conflict be mitigated? and 2) How can safe interaction and task performance be balanced in practical physical human-robot interaction? To this end, in my work, cooperative control frameworks were developed to reshape online predicted human behavior based on conflict level and execute it using novel semi-passivity concept.
+
+In addition, intelligent and optimized control strategies for autonomous systems subjected to complex disturbances and faults have been developed to ensure multiple control objectives while maintaining system feasibility.
+
+The long-term goal of my research is to broaden my research scope and address more challenging problems at the intersection of control theory, machine learning, and robotics. 
+
+If you’d like to chat more, feel free to email me!
 
 <h1><a href="/publications/" class="title-link">Selected Publications</a></h1>
 
