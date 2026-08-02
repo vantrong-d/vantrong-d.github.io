@@ -104,11 +104,11 @@ Research Experience
 * **Oct 2023 – now**: Cooperative Frameworks Using Conflict-aware Reference Generator and Semi-passive Control for Safe Physical Human-Robot Interaction
   * Predict human intention using deep learning-based data-driven model.
   * Develop adaptive reference generator to mitigate human-robot conflict.
-  * Devise semi-passive control to relax conservative of fully passive control and balance safe interaction and task performance.
-  * Analysis passivity, uniform ultimate boundedness, input-to-state stability.
+  * Devise semi-passive control to relax the conservatism of fully passive control and balance safe interaction and task performance.
+  * Analyze passivity, uniform ultimate boundedness, and input-to-state stability.
   * Implement human-in-the-loop experiments and analyze experiment data using statistical tests.
 
-* **Oct 2023 – now**: Adaptive Safety-critical Control for Uncertain MIMO Systems with Full-State Constraints and Input Saturation
+* **Jan 2022 – now**: Adaptive Safety-critical Control for Uncertain MIMO Systems with Full-State Constraints and Input Saturation
   * Develop time-varying, asymmetric full-state constraints using barrier Lyapunov function control methods with log-type, tan-type, and universal-type.
   * Relax boundedness assumptions and initial constrained values.
   * Ensure input magnitude and input rate constraints.
@@ -131,11 +131,15 @@ Work experience
   * Analyze experiment data and prediction data through statistical tests.
 
 * **Apr 2021 – Sep 2023**: Teaching Assistant and Research Assistant, Mechatronics Engineering Lab, Hanoi University of Science and Technology
-  * Manage, recruit, and train members of Mechatronics Engineering Lab.
-  * Complete the university project "Adaptive control for multi-axis drive systems with uncertain parameters and mismatched disturbances" with 01 ISI paper, 03 international conference papers.
+  * Manage, recruit, and train members of the Mechatronics Engineering Lab.
+  * Complete the university project "Adaptive control for multi-axis drive systems with uncertain parameters and mismatched disturbances" with 01 ISI paper and 03 international conference papers.
 
 * **Jan 2017 – Dec 2019**: Tutor in Student Learning Assistance Club, Hanoi University of Science and Technology
-  * Support about 500 students in Mathematics (Calculus, Algebra, Probability and Statistics) and Physical.
+  * Support about 500 students in Mathematics (Calculus, Algebra, Probability and Statistics) and Physics.
+
+Service
+======
+Reviewer of ICRA, IEEE Transactions on Automation Science and Engineering, IEEE Transactions on Intelligent Transportation Systems, ISA Transactions, International Journal of Robust and Nonlinear Control, and Engineering Applications of Artificial Intelligence.
 
 Skills
 ======
